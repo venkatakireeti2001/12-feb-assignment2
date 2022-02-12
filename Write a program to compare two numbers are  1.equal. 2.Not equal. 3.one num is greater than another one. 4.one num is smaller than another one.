@@ -1,0 +1,29 @@
+x=20
+y=30 
+
+if ( x == y ):
+   print("Line 1 - x is equal to y")
+else:
+   print("Line 1 - x is not equal to y") 
+
+if ( x != y ):
+   print("Line 2 - x is not equal to y")
+else:
+   print("Line 2 - x is equal to y")
+  
+if ( x > y ):
+   print("Line 3 - x is greater than y") 
+else:
+   print("Line 3 - x is not greater than y") 
+
+if ( x < y ):
+   print("Line 4 - x is smaller than y")
+else:
+   print("Line 4 - x is not smaller than y")       
+
+
+output:
+Line 1- x is not equal to y
+Line 2- x is not equal to y
+Line 3- x is not greater than y
+Line 4- x is smaller than y
